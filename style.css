@@ -3,12 +3,13 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 200vh;
+  height: auto;
   margin: 0;
   padding: 0;
   background-image: linear-gradient(80deg,lightblue,lightpink);
 }
 .form_container{
+  margin-top: 100px;
   width: 50%;
   height: auto;
   background-color: white;
@@ -116,4 +117,10 @@ a{
 }
 .loading{
   animation: rotateIn 1s infinite 1s ease-in-out ;
+}
+@media screen and (max-width:700px) {
+  .form_container{
+    width: 80%;
+  }
+
 }
