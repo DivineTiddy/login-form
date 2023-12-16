@@ -1,0 +1,119 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 200vh;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(80deg,lightblue,lightpink);
+}
+.form_container{
+  width: 50%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0px 10px 10px 0px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form_flex{
+  width: 70%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login_signup{
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid gray;
+  width: 100%;
+  justify-content: space-around;
+  border-radius: 7px;
+}
+.active{
+  border-radius: 7px;
+  padding: 7px 0px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  width: 100%;
+  background-image: linear-gradient(80deg,rgb(2, 2, 73),rgb(88, 88, 224));
+}
+.login{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  text-align: center;
+  padding: 7px 0px;
+}
+.signup{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  text-align: center;
+  padding: 7px 0px;
+}
+
+.form{
+  width: 100%;
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.hidden{
+  display: none;
+}
+form input{
+  width: 100%;
+  margin: 7px 0px;
+  padding: 5px 0px;
+  border-radius: 7px;
+  border: 1px solid gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+.bnt_Login{
+  cursor: pointer;
+  color: white;
+  width: 100%;
+  margin: 10px 0px;
+  padding: 5px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 7px;
+  border: none;
+  background-image: linear-gradient(-80deg,rgb(2, 2, 73),rgb(88, 88, 224));
+}
+#create_account{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+/* sign up form */
+.signup_form{
+  display: none;
+}
+.signup_form_active{
+  margin: 30px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.radio_btn{
+  display: flex;
+  align-items: center;
+}
+.load{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+}
+.plsWait{
+  display: none;
+}
+.loading{
+  animation: rotateIn 1s infinite 1s ease-in-out ;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login form</title>
+    <script src="https://kit.fontawesome.com/4b0adce541.js" crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="plsWait">please wait <i class="loading fa-solid fa-spinner"></i></h1>
+    <div class="form_container">
+      <!--Login form-->
+      <div class="form_flex">
+        <h3>Login form</h3>
+        <div class="login_signup">
+          <div class="login active">Login</div>
+          <div class="signup">Signup</div>
+        </div>
+        <div class="form">
+          <form class="form_login">
+            <input
+              class="email"
+              type="email"
+              name="email"
+              
+              placeholder="Email Address"
+            />
+            <input
+              class="input_password"
+              type="password"
+              name="password"
+              
+              placeholder="Password"
+            />
+            <br />
+            <a href="">Forgot password?</a><br />
+            <button type="submit" class="bnt_Login">Login</button>
+          </form>
+          <p id="create_account">Create an account <a href="">signup now</a></p>
+        </div>
+      </div>
+      <!--Sign up form-->
+      <div class="signup_form">
+        <div class="form_flex">
+          <form >
+            <input type="text" name="Fname" required placeholder="First name" />
+            <input type="text" name="Lname" required placeholder="Last name" />
+            <input type="text" name="Uname" required placeholder="User name" />
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="Enter email"
+            />
+            <div class="radio_btn">
+              Male<input type="radio" />Female<input type="radio" />
+            </div>
+            <input
+              type="number"
+              name="number"
+              required
+              placeholder="Phone number"
+            />
+
+            <button type="submit" class="bnt_Login">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
