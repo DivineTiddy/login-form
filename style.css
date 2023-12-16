@@ -114,6 +114,11 @@ a{
 }
 .plsWait{
   display: none;
+  margin-top: 200px;
+}
+.plsWait h3{
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 .loading{
   animation: rotateIn 1s infinite 1s ease-in-out ;
